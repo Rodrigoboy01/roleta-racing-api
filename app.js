@@ -1,5 +1,9 @@
 const express = require('express');
-const cors = require('cors');
+app.use(cors({
+  origin: "*",
+  methods: ["POST", "GET"],
+  allowedHeaders: ["Content-Type"]
+}));
 const app = express();
 
 
