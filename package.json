@@ -1,0 +1,13 @@
+
+{
+  "name": "roleta-racing-api",
+  "version": "1.0.0",
+  "description": "Webhook DigitoPay para Roleta Racing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
