@@ -1,12 +1,11 @@
 const express = require('express');
+const app = express();
+
 app.use(cors({
   origin: "*",
   methods: ["POST", "GET"],
   allowedHeaders: ["Content-Type"]
 }));
-const app = express();
-
-
 
 app.use(express.json());
 
